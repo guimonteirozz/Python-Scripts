@@ -1,3 +1,5 @@
+from random import choices
+
 lette_upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 lette_lower = 'abcdefghijklmnopqrstuvwxyz'
 numbers = '0123456789'
