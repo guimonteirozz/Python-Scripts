@@ -6,7 +6,7 @@ c = float(input("Digite valor de C: "))
 
 if a != 0:
     delta = (b*b) - 4*(a*c)
-    print("Delta = {}".format(delta))
+    print(f"Delta = {delta}")
     if delta < 0:
         print("Não existe raiz.")
     else:
@@ -16,7 +16,7 @@ if a != 0:
             print("Raiz Unica/Unica Solução") 
             print(x1)
         else:
-            print("X1 = {}".format(x1))
-            print("X2 = {}".format(x2))
+            print(f"X1 = {x1}")
+            print(f"X2 = {x2}")
 else:
     print("Não é equação do segundo grau.")
