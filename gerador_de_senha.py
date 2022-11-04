@@ -14,4 +14,7 @@ while numero_caracteres < 8:
     numero_caracteres = int(input('Numero de Caracteres da senha: '))
 
 list_str = ','.join(choices(total, k=numero_caracteres))
-print(list_str.replace(',', ''))
+
+senha = list_str.replace(',', '')
+
+print(senha)
