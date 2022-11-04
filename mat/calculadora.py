@@ -48,7 +48,7 @@ def number_6():
 
 
 def mult():
-    output.insert(END, "×")
+    output.insert(END, "x")
 
 
 def number_1():
@@ -76,7 +76,7 @@ def igualdade():
     if result == "":
         messagebox.showinfo("Alerta", "O Campo de Calculo Esta Vazio")
     else:
-        calculo = eval(result.replace("×", "*").replace("÷", "/").replace(",", ".").replace("%", "/100"))
+        calculo = eval(result.replace("x", "*").replace("÷", "/").replace(",", ".").replace("%", "/100"))
         output.delete(0, END)
         output.insert(END, calculo)
 
@@ -97,10 +97,10 @@ BG_NUMBERS = '#000000'
 FG_NUMBERS = 'white'
 BG_OPERADORES = '#FB5000'
 BG_OUTROS = '#1A6C01'
-WIDTH_BTNS = 2
+WIDTH_BTNS = 4
 FONT_NUMBERS = 10
 
-PADY_TOP = (20, 5)
+PADY_TOP = (10, 5)
 PADY_LINE1 = (5, 5)
 PADY_LINE2 = (5, 5)
 PADY_BOTTOM = (5, 30)
@@ -134,7 +134,7 @@ btn_5 = Button(tela, text="5", width=WIDTH_BTNS, bg=BG_NUMBERS, fg=FG_NUMBERS,
                activebackground=HOVER_NUMBERS, command=number_5)
 btn_6 = Button(tela, text="6", width=WIDTH_BTNS, bg=BG_NUMBERS, fg=FG_NUMBERS,
                activebackground=HOVER_NUMBERS, command=number_6)
-btn_mult = Button(tela, text="×", width=WIDTH_BTNS,
+btn_mult = Button(tela, text="x", width=WIDTH_BTNS,
                   activebackground=HOVER_OPERADORES, bg=BG_OPERADORES, command=mult)
 # LINE - 4
 btn_1 = Button(tela, text="1", width=WIDTH_BTNS, bg=BG_NUMBERS, fg=FG_NUMBERS,
