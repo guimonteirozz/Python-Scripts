@@ -2,6 +2,7 @@ print('{:=^32}'.format("Data 1")) #07/03/1999
 dia1 = int(input("Dia: "))        #10/09/1999  
 mes1 = int(input("Mes: "))
 ano1 = int(input("Ano: "))
+
 print('{:=^32}'.format("Data 2"))
 dia2 = int(input("Dia: "))
 mes2 = int(input("Mes: "))
