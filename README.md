@@ -1,7 +1,7 @@
 # Python-Scripts
 * Scripts Python Usando para Matematica
 
-### :student: Jogos no Terminal
+### :joystick: Jogos no Terminal
 
 ### :student: Faculdade
 
