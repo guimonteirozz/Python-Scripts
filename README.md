@@ -5,7 +5,7 @@
 
 ### Faculdade
 
-### Redes De Computadores:
+### :minidisc: Redes De Computadores:
 * Scripts para trabalhar com Redes 
 
 ### Algoritmos:
