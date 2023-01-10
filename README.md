@@ -6,7 +6,7 @@
 ### Faculdade
 
 ### Redes De Computadores:
-Scripts para trabalhar com Redes 
+* Scripts para trabalhar com Redes 
 
 ### Algoritmos:
-Trabalhando com logica e algoritmos
+* Trabalhando com logica e algoritmos
