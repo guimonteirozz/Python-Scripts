@@ -1,12 +1,12 @@
 # Python-Scripts
 * Scripts Python Usando para Matematica
 
-### Jogos no Terminal
+### :student: Jogos no Terminal
 
-### Faculdade
+### :student: Faculdade
 
 ### :minidisc: Redes De Computadores:
 * Scripts para trabalhar com Redes 
 
-### Algoritmos:
+### :man_teacher: Algoritmos:
 * Trabalhando com logica e algoritmos
